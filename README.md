@@ -2,7 +2,8 @@
 
 1) Annotation of the **README.md** file of my logistic growth repository with more complete and detailed information about the analysis. (**10 points**)
 
-   My work can be found **here**:
+   My work can be found **here**: https://github.com/Candidate1072313/logistic_growth/blob/main/README.md
+   
 3) Using my estimates to calculate the population size at 4980 minutes, assuming exponential growth. I will then compare this to the population size predicted under exponential growth. (**10 points**)
 
    My work can be found **here**:
