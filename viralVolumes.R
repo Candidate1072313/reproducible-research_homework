@@ -1,8 +1,9 @@
 install.packages("ggplot2")
 library(ggplot2)
 
-##Importing the data for dsDNA by using 'Files/Upload/Import data set'
-View(virionData2014) #Viewing the data in a new tab
+##Importing the data for dsDNA using the data from Cui et al., 2014
+virionData2014 <- read.csv("Cui_etal2014.csv") 
+View(virionData2014)#Viewing the data in a new tab
 
 #Transforming the data
 log_volume <- log(virionData2014$`Virion volume (nm×nm×nm)`)

@@ -6,6 +6,7 @@ library(gridExtra)
 #Setting seed for reproducibility
 set.seed(123)
 
+#Setting the function for randomness
 random_walk  <- function (n_steps) {
   df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
   df[1,] <- c(0,0,1)
