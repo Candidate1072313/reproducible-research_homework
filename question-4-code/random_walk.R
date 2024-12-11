@@ -3,7 +3,7 @@ install.packages("gridExtra")
 library(ggplot2)
 library(gridExtra)
 
-#Set seed for reproducibility
+#Setting seed for reproducibility
 set.seed(123)
 
 random_walk  <- function (n_steps) {

@@ -9,7 +9,7 @@ log_volume <- log(virionData2014$`Virion volume (nm×nm×nm)`)
 log_genome <- log(virionData2014$`Genome length (kb)`)
 
 #Our model is that logV = BlogL + loga
-#Therefore we need to create a linear model
+#Therefore, we need to create a linear model
 lmVirion <- lm(log_volume ~ log_genome, data = virionData2014)
 summary(lmVirion)
 #This finds that B = 1.5152 and loga = 7.0748
